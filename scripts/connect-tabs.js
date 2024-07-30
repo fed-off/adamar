@@ -1,0 +1,1 @@
+var l="current",n="data-tab",r=document.querySelectorAll(`[${n}]`),i=s=>{let c=s.target,a=c.getAttribute(`${n}`),e=`${a}--${l}`,o=`${a}--${c.value}`;document.querySelectorAll(`.${a}`).forEach(t=>{t.classList.contains(`${e}`)&&t.classList.remove(`${e}`),t.classList.contains(`${o}`)&&t.classList.add(`${e}`)})};r.forEach(s=>{s.addEventListener("change",i)});

@@ -1,0 +1,1 @@
+new Swiper(".juri__slider",{loop:!0,slidesPerView:1,spaceBetween:40,navigation:{nextEl:".juri__slider-button--next",prevEl:".juri__slider-button--prev"},breakpoints:{768:{slidesPerView:2},1366:{slidesPerView:4,simulateTouch:!1}}});

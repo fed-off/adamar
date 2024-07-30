@@ -1,0 +1,1 @@
+var n=document.querySelectorAll(".accordion__button"),s=o=>{let c=o.target,t=c.closest(".accordion");c.classList.toggle("accordion__button--checked"),t.classList.toggle("accordion--full")};n.forEach(o=>{o.addEventListener("click",s)});
